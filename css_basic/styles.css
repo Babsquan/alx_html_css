@@ -4,3 +4,29 @@ h3 {color: red;}
 header {align-items: center;
         background-color: lightgrey;
         padding: 20px;}  */
+
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        /* header , footer{
+            flex-direction: column;
+            
+        }  */
+
+        main{
+            display: flex;
+            flex-direction: row;
+            flex: auto;
+        }
+
+        article{
+            flex: 2;
+            overflow-y: auto;
+        }
+
+        aside{
+            flex: 1;
+            overflow-y: auto;
+        }
+
